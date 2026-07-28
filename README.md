@@ -1,2 +1,44 @@
 # CaseStudy_bike-share
-Analysis of Cyclistic's highest-value, casual-to-member conversion opportunities in 5.9M bike-share trips — a Google Data Analytics capstone project, extended with self-directed SQL analysis beyond the course roadmap.
+ 
+Finding Cyclistic's highest-value casual-to-member conversion opportunities in 5.9M bike-share trips — a Google Data Analytics capstone project, extended with self-directed SQL analysis beyond the course roadmap.
+ 
+## Slide show version
+- Web link: —
+- Download: —
+## Cyclistic Case Study
+Data from: Coursera | Google Data Analytics Capstone
+Project completed by: Thomas D Cochran
+ 
+## Business task
+Learn how annual members and casual riders use Cyclistic bikes differently, from the perspective of designing a new marketing strategy to convert casual riders into annual members.
+ 
+## Top 3 recommendations
+ 
+1. **Target the commuter segment** — discounted trial/first-month membership for casual riders with short, weekday rush-hour, point-to-point trips. This segment already rides like a member: an 89.74% hour-of-day pattern match with confirmed member commuters, representing 9.16% of all casual trips.
+2. **Weekend/leisure tier** — casual and member weekend ride timing overlap 94.08%. A leisure-framed offer (weekend-unlimited, seasonal discount) targets this large volume pool with a message suited to why they're actually riding, rather than a commute pitch they don't need.
+3. **Hotspot-targeted marketing** — member and casual riders' top-10 busiest stations show *zero* overlap. Members cluster around downtown business intersections (Canal & Madison, Clinton & Washington); casual riders cluster around lakefront landmarks (Navy Pier, Millennium Park, Shedd Aquarium). In-person offers (QR codes, geofenced push notifications) placed at casual riders' own top stations reach 45% of casual ridership — a more efficient conversion target than marketing at member's own hotspots.
+## Evidence
+ 
+**Trip duration**
+Members ride shorter on average than casual riders (~12.7 min vs. ~22.6 min).
+ 
+[graph — bar chart. X-axis: member_casual (two bars: "Member," "Casual"). Y-axis: average trip length in minutes. Title: "Average Trip Duration by Rider Type." One data label per bar showing the exact minute value.]
+ 
+**Weekday commute pattern**
+Isolating short (≤15 min), point-to-point trips on Tue/Wed/Thu rush hours, casual riders' hour-of-day timing shows an 89.74% shape match with confirmed member commuters.
+ 
+[graph — two overlaid line charts, normalized to % of each group's own total. X-axis: hour of day (0–23). Y-axis: % of trips. Two lines: Member (solid), Casual (dashed or different color). Title: "Weekday Commute-Hour Timing: Member vs. Casual (Tue–Thu, ≤15 min, point-to-point trips)." Should visually show both lines spiking around 7–9am and 4–6pm.]
+ 
+**Weekend timing**
+Casual and member riders overlap 94.08% in when they ride on weekends.
+ 
+[graph — same style as Finding 2's chart, but weekend-only data, no duration/station filter. Title: "Weekend Ride Timing: Member vs. Casual." Two normalized lines by hour of day.]
+ 
+**Station geography**
+Casual trip share tracks 2–3 percentage points behind member trip share across every station-popularity tier tested (top 5 through top 500) — but the top-10 stations for each group show zero overlap.
+ 
+[graph — two side-by-side horizontal bar charts (or one grouped chart). Left: Member's top 10 stations by trip count, labeled with station names. Right: Casual's top 10 stations by trip count, labeled with station names. Title: "Top 10 Stations by Rider Type — Member vs. Casual." Consider a small map graphic alongside showing the downtown cluster vs. lakefront cluster if you want to go further.]
+
+
+
+
