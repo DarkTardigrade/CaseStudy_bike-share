@@ -22,7 +22,9 @@ Learn how annual members and casual riders use Cyclistic bikes differently, from
 **Trip duration**
 Members ride shorter on average than casual riders (~12.7 min vs. ~22.6 min).
  
-[graph — bar chart. X-axis: member_casual (two bars: "Member," "Casual"). Y-axis: average trip length in minutes. Title: "Average Trip Duration by Rider Type." One data label per bar showing the exact minute value.]
+![Average trip duration: member vs. casual](LookAtThisGraph/AvgTripDur2.png)
+
+![Trip duration distribution by rider type](LookAtThisGraph/TripDurByRideType.png)
  
 **Weekday commute pattern**
 Isolating short (≤15 min), point-to-point trips on Tue/Wed/Thu rush hours, casual riders' hour-of-day timing shows an 89.74% shape match with confirmed member commuters.
