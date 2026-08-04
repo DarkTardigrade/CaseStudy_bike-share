@@ -28,13 +28,13 @@ Members ride shorter on average than casual riders (~12.7 min vs. ~22.6 min).
  
 **Weekday commute pattern**
 Isolating short (≤15 min), point-to-point trips on Tue/Wed/Thu rush hours, casual riders' hour-of-day timing shows an 89.74% shape match with confirmed member commuters.
- 
-[graph — two overlaid line charts, normalized to % of each group's own total. X-axis: hour of day (0–23). Y-axis: % of trips. Two lines: Member (solid), Casual (dashed or different color). Title: "Weekday Commute-Hour Timing: Member vs. Casual (Tue–Thu, ≤15 min, point-to-point trips)." Should visually show both lines spiking around 7–9am and 4–6pm.]
+
+![Weekday Commute-Hour Timing: Member vs. Casual (Tue–Thu, ≤15 min, point-to-point trips).](LookAtThisGraph/WeekDay.png)
  
 **Weekend timing**
 Casual and member riders overlap 94.08% in when they ride on weekends.
- 
-[graph — same style as Finding 2's chart, but weekend-only data, no duration/station filter. Title: "Weekend Ride Timing: Member vs. Casual." Two normalized lines by hour of day.]
+
+ ![Weekend Ride Timing: Member vs. Casual](LookAtThisGraph/WeekEnd.png)
  
 **Station geography**
 Casual trip share tracks 2–3 percentage points behind member trip share across every station-popularity tier tested (top 5 through top 500) — but the top-10 stations for each group show zero overlap.
