@@ -40,7 +40,7 @@ Casual and member riders overlap 94.08% in when they ride on weekends.
 Casual trip share tracks 2–3 percentage points behind member trip share across every station-popularity tier tested (top 5 through top 500) — but the top-10 stations for each group show zero overlap.
  
 
- ![Most Common Bike Trip Locations By Rider Type](TripLocations.png)
+ ![Most Common Bike Trip Locations By Rider Type](LookAtThisGraph/TripLocations.png)
 
 
 
