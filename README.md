@@ -3,7 +3,7 @@
 Analysis of Cyclistic's highest-value, casual to member conversion opportunities in 5.9M bike-share trips. A Google Data Analytics capstone project, completed with SQL and Tableau
  
 ## Slide show version
-*will be added shortly*
+*will be added later*
 - Web link: —
 - Download: —
   
@@ -27,28 +27,27 @@ Learn how annual members and casual riders use Cyclistic bikes differently, from
 **Trip duration**
 Members ride shorter on average than casual riders (~12.7 min vs. ~22.6 min).
  
-![Average trip duration: member vs. casual](LookAtThisGraph/AvgTripDur2.png)
+![Average trip duration: member vs. casual](Graphs/AvgTripDur2.png)
 
-![Trip duration distribution by rider type](LookAtThisGraph/TripDurByRideType.png)
+![Trip duration distribution by rider type](Graphs/TripDurByRideType.png)
  
 **Weekday commute pattern**
 Isolating short (≤15 min), point-to-point trips on Tue/Wed/Thu rush hours, casual riders' hour-of-day timing shows an 89.74% shape match with confirmed member commuters.
 
-![Weekday Commute-Hour Timing: Member vs. Casual (Tue–Thu, ≤15 min, point-to-point trips).](LookAtThisGraph/WeekDay.png)
+![Weekday Commute-Hour Timing: Member vs. Casual (Tue–Thu, ≤15 min, point-to-point trips).](Graphs/WeekDay.png)
  
 **Weekend timing**
 Casual and member riders overlap 94.08% in when they ride on weekends.
 
- ![Weekend Ride Timing: Member vs. Casual](LookAtThisGraph/WeekEnd.png)
+ ![Weekend Ride Timing: Member vs. Casual](Graphs/WeekEnd.png)
  
 **Station geography**
-Casual trip share tracks 2–3 percentage points behind member trip share across every station-popularity tier tested (top 5 through top 500) — but the top-10 stations for each group show zero overlap.
- 
+The top-10 most popular stations for each group show zero overlap.
 
- ![Most Common Bike Trip Locations By Rider Type](LookAtThisGraph/TripLocations.png)
+ ![Most Common Bike Trip Locations By Rider Type](Graphs/TripLocations.png)
 
-## Data Cleaning
-*will be added shortly*
+## Data Cleaning Process
+*will be added later*
 
 
 
